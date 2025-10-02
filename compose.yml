@@ -17,8 +17,10 @@ services:
       - ./windows:/storage
     restart: always
     stop_grace_period: 2m
+    
     environment:
       LANGUAGE: "japanese"
+      
     environment:
       REGION: "ja-JP"
       KEYBOARD: "ja-JP"
